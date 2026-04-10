@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+input, select, textarea {
+  @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm outline-none transition focus:border-slate-400;
+}

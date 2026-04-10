@@ -1,0 +1,38 @@
+# Node modules
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Production build
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (VERY IMPORTANT)
+/.env
+.env.local
+.env.development
+.env.production
+
+# Vercel
+.vercel
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+/coverage
